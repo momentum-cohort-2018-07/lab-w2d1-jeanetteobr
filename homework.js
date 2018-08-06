@@ -120,7 +120,7 @@ function multigreeting (name, lang) {
 // If the birth date is after than the current date, return nothing.
 
 function howOld (birthdate, current) {
-     if (birthdate <= current) {
-         return 
-     }
-    } 
+     
+}
+
+
