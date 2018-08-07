@@ -120,7 +120,13 @@ function multigreeting (name, lang) {
 // If the birth date is after than the current date, return nothing.
 
 function howOld (birthdate, current) {
-     
-}
-
+     // find difference between birthday and current date
+     if (birthdate - current === 0 ) 
+         return (0) 
+     // convert milliseconds to years 
+      else if (birthdate - current != 0 ) {
+          return (new Date() - birthdate) 
+      }
+     // round years down 
+}   
 
